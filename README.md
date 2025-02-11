@@ -1,5 +1,5 @@
-# RianaMonitoringAPI
+# DNSMonitoringAPI
 
-RianaMonitoringAPI is a REST API for monitoring and managing Riana health.
+DNSMonitoringAPI is a REST API for monitoring and managing health.
 
 > 🚀️ Under development 🚧
