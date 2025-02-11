@@ -1,6 +1,6 @@
 spring:
   application:
-    name: riana-monitoring-api
+    name: dns-monitoring-api
   output:
     ansi:
         enabled: always
@@ -38,7 +38,7 @@ springdoc:
   show-actuator: true
 
 openapi:
-  title: "Riana Monitoring API"
+  title: "DNS Monitoring API"
   version: "0.0.1"
   description: "API for monitoring DNS records"
 
