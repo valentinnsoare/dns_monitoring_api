@@ -15,8 +15,8 @@ logging:
 
 infoBlox:
   infoBloxUrl: "https://gmc-ui.riana.refinitiv.com/wapi/v2.11/"
-  username: "rianaapi"
-  password: "kC6pxd@nVDx21#y"
+  username: ZZZZZZ
+  password: XXXXX
   bufferSize: 2
 
 googleDnsResolver:
