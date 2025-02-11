@@ -1,0 +1,1 @@
+[engine:junit-jupiter]/[class:io.valentinsoare.rianamonitoringapi.RianaMonitoringDefaultValuesApiApplicationTests]/[method:contextLoads()]

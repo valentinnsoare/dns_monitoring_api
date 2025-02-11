@@ -1,0 +1,54 @@
+spring:
+  application:
+    name: riana-monitoring-api
+  output:
+    ansi:
+        enabled: always
+  main:
+    banner-mode: console
+
+server:
+    port: 8080
+
+logging:
+  config: classpath:logback-spring.xml
+
+infoBlox:
+  infoBloxUrl: "https://gmc-ui.riana.refinitiv.com/wapi/v2.11/"
+  username: "rianaapi"
+  password: "kC6pxd@nVDx21#y"
+  bufferSize: 2
+
+googleDnsResolver:
+  googleResolverUrl: "https://dns.google/resolve"
+  bufferSize: 2
+
+oracleCloud:
+  nameservers:
+      - "ns1.p68.dns.oraclecloud.net"
+      - "ns2.p68.dns.oraclecloud.net"
+      - "ns3.p68.dns.oraclecloud.net"
+      - "ns4.p68.dns.oraclecloud.net"
+
+springdoc:
+  swagger-ui:
+    path: /api/v1/riana/monitoring/swagger-ui
+    default-models-expand-depth: -1
+    urls-primary-name: "Riana Monitoring API"
+  show-actuator: true
+
+openapi:
+  title: "Riana Monitoring API"
+  version: "0.0.1"
+  description: "API for monitoring DNS records"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: "/api/v1/riana/monitoring/actuator"
+  endpoint:
+    health:
+      show-details: always
+

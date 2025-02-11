@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.valentinsoare.rianamonitoringapi.RianaMonitoringDefaultValuesApiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.48 s -- in io.valentinsoare.rianamonitoringapi.RianaMonitoringDefaultValuesApiApplicationTests

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "java.lang.Integer"
+  },
+  {
+    "name": "ch.qos.logback.core.model.Model"
+  },
+  {
+    "name": "java.lang.Boolean"
+  },
+  {
+    "name": "ch.qos.logback.core.model.AppenderModel"
+  },
+  {
+    "name": "java.lang.String"
+  },
+  {
+    "name": "ch.qos.logback.core.model.ImplicitModel"
+  },
+  {
+    "name": "ch.qos.logback.core.model.StatusListenerModel"
+  },
+  {
+    "name": "ch.qos.logback.classic.model.LoggerModel"
+  },
+  {
+    "name": "ch.qos.logback.classic.model.ConfigurationModel"
+  },
+  {
+    "name": "ch.qos.logback.core.model.AppenderRefModel"
+  },
+  {
+    "name": "java.util.ArrayList"
+  },
+  {
+    "name": "ch.qos.logback.classic.model.RootLoggerModel"
+  },
+  {
+    "name": "ch.qos.logback.core.model.ComponentModel"
+  },
+  {
+    "name": "ch.qos.logback.core.model.NamedComponentModel"
+  }
+]

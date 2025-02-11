@@ -1,0 +1,7 @@
+[
+  {
+    "interfaces": [
+      "org.springframework.web.context.request.NativeWebRequest"
+    ]
+  }
+]
