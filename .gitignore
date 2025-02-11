@@ -24,9 +24,6 @@ HELP.md
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-/logs/
-/target/
-/target/classes/
 
 ### VS Code ###
 .vscode/
